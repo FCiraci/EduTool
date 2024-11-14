@@ -26,6 +26,7 @@ class EduTool:
         print("Commande :")
         print("1 : Récuperer les informations systèmes")
         print("2 : Afficher le nom de l'utilisateur")
+        print("3 : Récuperer votre adresse IP")
 
     def run(self):
         while True:
@@ -36,6 +37,9 @@ class EduTool:
                         print(os.uname())
                     case 2:
                         print(self.username)
+                    case 3:
+                        adresse_ip = socket.gethostbyname(self.username)
+                        print(adresse_ip)
                     case _:
                         print("Action inconnue, veuillez saisir une valeur présente ci-dessus")
             except ValueError:
