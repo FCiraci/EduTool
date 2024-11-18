@@ -23,7 +23,6 @@ class EduTool:
 		print(self.logo)
 		print(Fore.GREEN + f"		         Bienvenue {self.username} ! " + Style.RESET_ALL)
 		print(Fore.RED + "		  	 © Copyright Furkan Ciraci \n\n\n" + Style.RESET_ALL)
-		print("⚠ CE N'EST PAS UN TOOL POUR ATTAQUER VOUS NE RECUPEREZ QUE VOS PROPRES INFORMATIONS ⚠\n\n")
 		print("Commande :")
 		print("1 : Récuperer les informations systèmes")
 		print("2 : Afficher le nom de l'utilisateur")
